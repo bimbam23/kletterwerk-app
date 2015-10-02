@@ -1,0 +1,65 @@
+Kletter app:
+
+interface:
+login
+
+routen/boulder
+	suche
+		name
+		schwierigkeit
+		schrauber
+		art der route
+		erstelldatum
+		(anzahl der dokumentieren no hand rests)
+
+		selber schon geschafft
+		...
+
+		
+interaktiv:
+	route/boulder
+		bewertung von 1-5
+		kommentar
+		anzahl versuche / wie geschafft
+		wann probiert
+		merken (projekt)
+
+statistiken
+	du/alle:
+		avg routen schwierigkeit in abhängigkeit von t
+			overall
+			year
+			month
+			week
+			day
+		schwierigste route
+		häufigste route
+		archiv von gewesen routen
+
+
+datenbank
+	routen/boulder
+		routen id
+		tafel id
+		name
+		schwierigkeit
+		schrauber
+		art der route
+		erstelldatum
+		(anzahl der documentieren no hand rests)
+		aktiv? (schon im archiv)
+		bewertung
+		...
+	user
+		vorname
+		name
+		nickname
+		geschlecht
+		jahrgang
+	gekletterte routen
+		routen id 
+		geschafft?
+		wie geschafft
+		versuche / datum
+		kommentar
+
